@@ -27,7 +27,7 @@ int main() {
         scanf("%d", &inp[i]);
     }
     scanf("%d", &goal);
-    int out = binary_search(inp, 0, n, goal);
+    int out = binary_search(inp, 0, n-1, goal);
     printf("%d", out);
     return 0;
 }
